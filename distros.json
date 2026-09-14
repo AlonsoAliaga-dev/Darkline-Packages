@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "distros": [
+    {
+      "id": "debian",
+      "name": "Debian",
+      "version": "13 (Trixie)",
+      "description": "The universal operating system. Stable, reliable, and widely supported.",
+      "archives": {
+        "arm64-v8a": "https://github.com/AlonsoAliaga-dev/Darkline-Packages/releases/download/Package/rootfs_arm_64.tar.gz",
+        "armeabi-v7a": "https://github.com/AlonsoAliaga-dev/Darkline-Packages/releases/download/Package/rootfs_arm_32.tar.gz",
+        "x86_64": "https://github.com/AlonsoAliaga-dev/Darkline-Packages/releases/download/Package/rootfs_x86_64.tar.gz"
+      },
+      "size_mb": {
+        "arm64-v8a": 320,
+        "armeabi-v7a": 280,
+        "x86_64": 350
+      },
+      "default_shell": "/bin/bash",
+      "login_command": "clear && fastfetch",
+      "rootfs_path": "Linux/Debian"
+    }
+  ]
+}
