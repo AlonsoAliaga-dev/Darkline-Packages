@@ -12,9 +12,9 @@
         "x86_64": "https://github.com/AlonsoAliaga-dev/Darkline-Packages/releases/download/Package/rootfs_x86_64.tar.gz"
       },
       "size_mb": {
-        "arm64-v8a": 320,
-        "armeabi-v7a": 280,
-        "x86_64": 350
+        "arm64-v8a": 139,
+        "armeabi-v7a": 124,
+        "x86_64": 139
       },
       "default_shell": "/bin/bash",
       "login_command": "clear && fastfetch",
