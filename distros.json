@@ -16,7 +16,7 @@
         "armeabi-v7a": 3.61,
         "x86_64": 4.17
       },
-      "default_shell": "/bin/ash",
+      "default_shell": "/bin/busybox",
       "login_command": "clear && echo Hello, User!",
       "rootfs_path": "Linux/Alpine"
     },
